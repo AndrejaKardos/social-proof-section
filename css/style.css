@@ -12,8 +12,20 @@ body {
 
 .container {
     background-color: white;
+    display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 700px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
 }
 
 .info__header--huge-text {
