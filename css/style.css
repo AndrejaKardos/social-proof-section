@@ -1,12 +1,23 @@
 body {
     background-color: lightgrey;
     font-family: 'Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     margin: 0;
 }
 
+.container {
+    background-color: white;
+    width: 1440px;
+    height: 700px;
+}
+
 .attribution {
+    position: absolute;
+    bottom: 5px;
     font-size: 11px;
     text-align: center;
 }
