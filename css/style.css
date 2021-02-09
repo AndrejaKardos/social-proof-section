@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 1440px;
-    height: 700px;
+    height: 800px;
     margin: 0 50px 0 50px;
 }
 
@@ -56,12 +56,20 @@ body {
     margin-top: 20px;
     font-weight: 500;
     width: 480px;
+    line-height: 25px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
 }
 
 .ratings__reviews, 
 .ratings__report-guru,
 .ratings__best-tech {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     background: hsl(300, 24%, 96%);
     margin: 10px;
     padding: 20px;
@@ -71,9 +79,19 @@ body {
     color: hsl(300, 43%, 31%);
 }
 
+#reviews, #report-guru, #best-tech {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+
 .ratings__reviews--stars {
-    display: inline-block;
-    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    width: 15px;
+    height: 15px;
+    margin-right: 100px;
     margin-left: 15px;
 }
 
@@ -82,13 +100,33 @@ body {
 .reviews {
     display: flex;
     flex-direction: row;
-    margin: 0 50px;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: center;
 }
 
 .reviews__container {
     background-color: hsl(300, 43%, 22%);
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 10px;
+    width: 350px;
+    height: 250px;
+}
+
+.reviews--left {
+    position: relative;
+    right: 12px;
+}
+
+.reviews--middle {
+    position: relative;
+    top: 15px;
+}
+
+.reviews--right {
+    position: relative;
+    top: 30px;
+    left: 12px;
 }
 
 .image__user {
