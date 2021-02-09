@@ -45,15 +45,17 @@ body {
 }
 
 .info__header--huge-text {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
+    width: 400px;
 }
 
 .info__about {
     color: hsl(303, 10%, 53%);
     margin-top: 20px;
     font-weight: 500;
+    width: 480px;
 }
 
 .ratings__reviews, 
