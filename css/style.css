@@ -43,6 +43,32 @@ body {
     margin: 100px;
 }
 
+.reviews__container {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.reviews__name {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    margin: 20px 20px 0 20px;
+}
+
+.reviews__buyer {
+    font-weight: 700;
+    color: hsl(322, 28%, 48%);
+    font-size: 12px;
+    margin: 0 20px 0 20px;
+}
+
+.reviews__comment {
+    color: hsl(300, 24%, 96%);
+    font-size: 13px;
+    margin: 20px;
+}
+
 .attribution {
     position: absolute;
     bottom: 5px;
