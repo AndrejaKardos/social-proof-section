@@ -50,6 +50,12 @@ body {
     color: hsl(300, 43%, 22%);
 }
 
+.info__about {
+    color: hsl(303, 10%, 53%);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
 .ratings__reviews, 
 .ratings__report-guru,
 .ratings__best-tech {
