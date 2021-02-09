@@ -30,6 +30,8 @@ body {
     right: -150px;
 }
 
+/* TOP SECTION */
+
 .top {
     display: flex;
     flex-direction: row;
@@ -47,6 +49,17 @@ body {
     font-weight: 700;
     color: hsl(300, 43%, 22%);
 }
+
+.ratings__reviews, 
+.ratings__report-guru,
+.ratings__best-tech {
+    background: hsl(300, 24%, 96%);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* BOTTOM SECTION */
 
 .reviews {
     display: flex;
