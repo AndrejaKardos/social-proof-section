@@ -53,10 +53,17 @@ body {
 .ratings__reviews, 
 .ratings__report-guru,
 .ratings__best-tech {
+    display: inline-block;
     background: hsl(300, 24%, 96%);
     margin: 10px;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.ratings__reviews--stars {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /* BOTTOM SECTION */
