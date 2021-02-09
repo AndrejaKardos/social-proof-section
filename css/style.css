@@ -23,6 +23,7 @@ body {
     display: flex;
     flex-direction: row;
     align-self: flex-start;
+    margin: 100px;
 }
 
 .info {
@@ -34,6 +35,10 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
+}
+
+.reviews {
+    margin: 100px;
 }
 
 .attribution {
