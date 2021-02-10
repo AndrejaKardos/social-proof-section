@@ -112,7 +112,7 @@ body {
     flex-direction: row;
     align-self: flex-end;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     border: 1px solid black;
 }
 
@@ -125,16 +125,19 @@ body {
 
 .reviews--left {
     position: relative;
+    margin: 0 15px 0 10px;
 }
 
 .reviews--middle {
     position: relative;
     top: 15px;
+    margin: 0 10px 0 10px;
 }
 
 .reviews--right {
     position: relative;
     top: 30px;
+    margin: 0 10px 0 15px;
 }
 
 .image__user {
