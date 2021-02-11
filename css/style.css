@@ -61,11 +61,11 @@ body {
     .ratings {
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
     }
 
     .star--margin {
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .ratings__reviews, 
@@ -74,6 +74,7 @@ body {
         display: flex;
         flex-direction: column;
         position: relative;
+        align-items: center;
         background: hsl(300, 24%, 96%);
         margin: 10px;
         padding: 20px;
@@ -92,11 +93,8 @@ body {
     .ratings__reviews--stars {
         display: flex;
         flex-direction: row;
-        justify-self: flex-start;
-        width: 15px;
-        height: 15px;
-        margin-right: 100px;
-        margin-left: 15px;
+        justify-content: center;
+        width: 100%;
         margin-bottom: 20px;
     }
 
