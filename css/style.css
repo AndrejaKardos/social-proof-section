@@ -22,16 +22,13 @@ body {
         height: 800px;
         margin: 0 50px 0 50px;
     }
-    
+
     .image__desktop--top {
-        position: absolute;
-        left: -50px;
+        display: none;
     }
 
     .image__desktop--bottom {
-        position: absolute;
-        bottom: -50px;
-        right: -150px;
+        display: none;
     }
 
     /* TOP SECTION */
