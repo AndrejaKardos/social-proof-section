@@ -105,7 +105,7 @@ body {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 75%;
+        top: 700px;
         align-self: flex-end;
         width: 100%;
         justify-content: center;
@@ -167,6 +167,19 @@ body {
         color: hsl(300, 24%, 96%);
         font-size: 13px;
         margin: 15px 25px 25px 30px;
+    }
+
+    /* ATTRIBUTION */
+
+    .attribution {
+        position: absolute;
+        bottom: 5px;
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
     }
 }
 
@@ -344,15 +357,16 @@ body {
         font-size: 13px;
         margin: 15px 25px 25px 30px;
     }
+
+    .attribution {
+        position: absolute;
+        bottom: 5px;
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
 }
 
-.attribution {
-    position: absolute;
-    bottom: 5px;
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
