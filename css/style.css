@@ -23,10 +23,7 @@ body {
         margin: 0 50px 0 50px;
     }
 
-    .image__desktop--top {
-        display: none;
-    }
-
+    .image__desktop--top,
     .image__desktop--bottom {
         display: none;
     }
