@@ -34,7 +34,6 @@ body {
         display: flex;
         flex-direction: column;
         margin: 10px;
-        border: 1px solid red;
         text-align: center;
     }
 
@@ -48,11 +47,13 @@ body {
         font-weight: 700;
         color: hsl(300, 43%, 22%);
         width: 95%;
+        margin-top: 60px;
     }
 
     .info__about {
         color: hsl(303, 10%, 53%);
         margin-top: 20px;
+        margin-bottom: 30px;
         font-weight: 500;
         width: 100%;
         line-height: 25px;
