@@ -33,8 +33,9 @@ body {
         position: absolute;
         display: flex;
         flex-direction: column;
-        margin: 50px;
+        margin: 10px;
         border: 1px solid red;
+        text-align: center;
     }
 
     .info {
@@ -46,14 +47,14 @@ body {
         font-size: 30px;
         font-weight: 700;
         color: hsl(300, 43%, 22%);
-        width: 90%;
+        width: 95%;
     }
 
     .info__about {
         color: hsl(303, 10%, 53%);
         margin-top: 20px;
         font-weight: 500;
-        width: 90%;
+        width: 100%;
         line-height: 25px;
     }
 
@@ -67,7 +68,7 @@ body {
     .ratings__report-guru,
     .ratings__best-tech {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
         background: hsl(300, 24%, 96%);
         margin: 10px;
@@ -76,14 +77,6 @@ body {
         font-weight: 700;
         font-size: 13px;
         color: hsl(300, 43%, 31%);
-    }
-
-    .ratings__reviews {
-        left: -100px;
-    }
-
-    .ratings__report-guru { 
-        left: -50px;
     }
 
     #reviews, #report-guru, #best-tech {
@@ -100,6 +93,7 @@ body {
         height: 15px;
         margin-right: 100px;
         margin-left: 15px;
+        margin-bottom: 20px;
     }
 
     /* BOTTOM SECTION */
