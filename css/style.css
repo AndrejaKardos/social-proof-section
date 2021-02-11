@@ -8,7 +8,6 @@ body {
     height: 100vh;
     margin: 0 auto;
     font-size: 15px;
-    overflow: hidden;
 }
 
 /* MOBILE */
@@ -18,9 +17,9 @@ body {
         background-color: white;
         display: flex;
         flex-direction: column;
-        width: 75vw;
-        height: 800px;
-        margin: 0 50px 0 50px;
+        width: 100vw;
+        height: 100vh;
+        border: 1px solid green;
     }
 
     .image__desktop--top,
@@ -31,30 +30,30 @@ body {
     /* TOP SECTION */
 
     .top {
+        position: absolute;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 100px;
+        flex-direction: column;
+        margin: 50px;
+        border: 1px solid red;
     }
 
     .info {
         display: flex;
         flex-direction: column;
-        margin-right: 50px;
     }
 
     .info__header--huge-text {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         color: hsl(300, 43%, 22%);
-        width: 400px;
+        width: 90%;
     }
 
     .info__about {
         color: hsl(303, 10%, 53%);
         margin-top: 20px;
         font-weight: 500;
-        width: 480px;
+        width: 90%;
         line-height: 25px;
     }
 
@@ -107,7 +106,9 @@ body {
 
     .reviews {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        position: absolute;
+        top: 75%;
         align-self: flex-end;
         width: 100%;
         justify-content: center;
@@ -175,6 +176,10 @@ body {
 /* DESKTOP */
 
 @media only screen and (min-width: 376px) {
+    body {
+        overflow: hidden;
+    }
+
     .container {
         background-color: white;
         display: flex;
