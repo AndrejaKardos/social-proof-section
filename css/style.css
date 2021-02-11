@@ -64,6 +64,10 @@ body {
         margin-left: 50px;
     }
 
+    .star--margin {
+        margin-left: 10px;
+    }
+
     .ratings__reviews, 
     .ratings__report-guru,
     .ratings__best-tech {
