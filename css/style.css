@@ -22,7 +22,6 @@ body {
         flex-direction: column;
         width: 100vw;
         height: 850px;
-        border: 1px solid green;
     }
 
     .image__desktop--top,
@@ -108,9 +107,9 @@ body {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: -50px;
+        top: -25px;
+        margin-bottom: 50px;
         align-items: center;
-        border: 1px solid red;
     }
 
     .reviews__container {
