@@ -107,11 +107,9 @@ body {
     .reviews {
         display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 525px;
-        align-self: flex-end;
-        width: 100%;
-        justify-content: center;
+        position: relative;
+        top: -25px;
+        align-items: center;
         border: 1px solid red;
     }
 
@@ -177,7 +175,7 @@ body {
 
     .attribution {
         position: absolute;
-        top: 825px;
+        top: 1425px;
         font-size: 11px;
         text-align: center;
     }
